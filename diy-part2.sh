@@ -17,4 +17,5 @@ cd lede
 ./scripts/feeds update -a
 ./scripts/feeds install -a
 cd ..
+mkdir ./openwrt/package/lean
 cp -r ./lede/package/lean ./openwrt/package/lean
