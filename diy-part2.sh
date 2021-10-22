@@ -12,10 +12,4 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
-git clone https://github.com/coolsnowwolf/lede
-cd lede
-./scripts/feeds update -a
-./scripts/feeds install -a
-cd ..
-mkdir ./openwrt/package/lean
-cp -r ./lede/package/lean ./openwrt/package/lean
+svn checkout https://github.com/coolsnowwolf/lede/trunk/package/lean/ package/lean
