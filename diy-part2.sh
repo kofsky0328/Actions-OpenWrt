@@ -13,4 +13,4 @@
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 git clone https://github.com/coolsnowwolf/lede
-cp -r /home/lecher/lede/package/lean /home/lecher/openwrt/package/lean
+cp -r /home/root/lede/package/lean /home/root/openwrt/package/lean
