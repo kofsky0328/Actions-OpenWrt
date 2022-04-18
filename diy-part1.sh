@@ -17,6 +17,6 @@
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 # svn checkout https://github.com/coolsnowwolf/lede/trunk/package/lean/ package/lean
-# make dirclean
+  make dirclean
 # rm -rf /package/lean/mt -y
 # rm -rf /package/lean/mtk-eip93 -y
