@@ -19,4 +19,4 @@ echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.defau
 echo 'src-git small8 https://github.com/kenzok8/small-package' >>feeds.conf.default
 git clone https://github.com/cokebar/openwrt-vlmcsd.git package/openwrt-vlmcsd
 git clone https://github.com/cokebar/luci-app-vlmcsd.git package/luci-app-vlmcsd
-sed -i 's/softethervpn-server/softethervpn5-server/' openwrt/feeds/small8/luci-app-softethervpn/Makefile
+sed -i 's/softethervpn-server/softethervpn5-server/' feeds/small8/luci-app-softethervpn/Makefile
