@@ -54,7 +54,7 @@ jobs:
         sudo -E apt-get -qq clean
         sudo timedatectl set-timezone "$TZ"
         #sudo mkdir -p /workdir
-        #sudo chown $USER:$GROUPS /workdir
+        sudo chown $USER:$GROUPS /mnt
         sudo chmod 777 /mnt
     - name: Clone source code
       working-directory: /mnt
