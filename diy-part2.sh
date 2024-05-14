@@ -18,5 +18,4 @@ sed -i 's/softethervpn-server/softethervpn5-server/' feeds/smpackage/luci-app-so
 # rm feeds/packages/net/softethervpn5/patches/010-engines.patch
 cd ..
 mv 150_remove-restriction.patch openwrt/feeds/packages/net/softethervpn5/patches/150_remove-restriction.patch
-mv 101-fix-mbedtls3.6-build.patch openwrt/package/libs/mbedtls/patches/101-fix-mbedtls3.6-build.patch
 cd openwrt
